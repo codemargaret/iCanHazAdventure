@@ -1,3 +1,7 @@
-<p>
-  story works!
-</p>
+<h2>Your Kitteh is:</h2>
+
+<div *ngFor="let kitteh of kittehs" class="panel panel-default">
+  <div class="panel-body">
+    <h3>{{kitteh.name}}</h3>
+  </div>
+</div>

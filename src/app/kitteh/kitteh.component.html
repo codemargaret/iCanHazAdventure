@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="card card-body">
+    <h1>Create your Kitteh</h1>
+    <div class="form-group">
+      <label>Enter your kitteh's name</label><br>
+      <input #newName class="form-control" type="text"><br>
+    </div>
+    <div class="form-group">
+      <label>Enter your kitteh's color</label><br>
+      <input #newColor class="form-control" type="text"><br>
+    </div>
+    <div class="form-check">
+      <label>Are you a fluffy kitteh?</label><br>
+      <input #izFluffy class="form-check-input" type="radio" [value]="true">Yes<br>
+      <input #izFluffy class="form-check-input" type="radio" [value]="false">No<br>
+    </div>
+    <div class="form-check">
+      <label>Do you haz stripez?</label><br>
+      <input #hazStripez class="form-check-input" type="radio" [value]="true">Yes<br>
+      <input #hazStripez class="form-check-input" type="radio" [value]="false">No<br>
+    </div>
+    <div class="form-check">
+      <label>Are you an outdoor kitteh?</label><br>
+      <input #izOutdoorz class="form-check-input" type="radio" [value]="true">Yes<br>
+      <input #izOutdoorz class="form-check-input" type="radio" [value]="false">No<br>
+    </div>
+    <div class="form-check">
+      <label>Are you a loud kitteh?</label><br>
+      <input #izLoud class="form-check-input" type="radio" [value]="true">Yes<br>
+      <input #izLoud  class="form-check-input" type="radio" [value]="false">No<br>
+    </div>
+    <div class="form-check">
+      <label>Are you an old kitteh?</label><br>
+      <input #izOld class="form-check-input" type="radio" [value]="true">Yes<br>
+      <input #izOld class="form-check-input" type="radio" [value]="false">No<br>
+    </div>
+    <button class="btn btn-info" routerLink="/story" (click)="newKitteh(newName.value, newColor.value, izFluffy.value, hazStripez.value, izOutdoorz.value, izLoud.value, izOld.value); newName.value=''; newColor.value='';">PLAY</button>
+  </div>
+</div>
