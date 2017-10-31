@@ -1,0 +1,17 @@
+{
+  "name": "i-can-haz-adventure",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Margaret / Keegan"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
