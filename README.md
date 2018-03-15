@@ -1,28 +1,46 @@
-# ICanHazAdventure
+# I Can Haz Adventure
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+#### _A choose-your-own-adventure story where you are a cat, 10.31.2017_
 
-## Development server
+#### By _**Margaret Berry and Keegan Ruebling**_
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Description
+_This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0._
 
-## Code scaffolding
+## Project Goals
+* Practice generating an app using Angular CLI.
+* Practice routing.
+* Practice creating models and writing services.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+## Setup/Installation Requirements
+_Run the following commands in Terminal:_
 
-## Build
+1. `$ git clone` [this repository](https://github.com/codemargaret/iCanHazAdventure.git)
+2. `$ cd iCanHazAdventure`
+3. `$ npm install`
+4. `$ bower install`
+5. `$ ng serve`
+6. _Navigate to localhost:4200_
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Known Bugs
+_Character traits do not show on character page._
 
-## Running unit tests
+## Future Features
+_Add more story pages._
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
+## Support and contact details
+_If you have issues, questions, ideas, or concerns, please contact [Margaret](codeberry1@gmail.com). Feel free to make a contribution to the code._
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Technologies Used
+* _JavaScript_
+* _TypeScript_
+* _Node_
+* _Bower_
+* _Angular CLI_
+
+### License
+*This software is licensed under the MIT license.*
+
+Copyright (c) 2017 **_Margaret Berry and Keegan Ruebling_**
